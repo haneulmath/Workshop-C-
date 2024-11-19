@@ -32,4 +32,4 @@ foreach(CPP_NAME ${CPP_FILES}) # Pour chaque élément de cpp_files que j'appell
 
     target_link_libraries(${EXECUTABLE_NAME} PRIVATE sil)
     
-endforeach() 
+endforeach()  
