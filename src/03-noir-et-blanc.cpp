@@ -12,6 +12,7 @@ int main()
         }
     }
 
+    // Convertit chaque pixel en nuance de gris
     for (glm::vec3& color : image.pixels())
     {
         float gray = (color.r + color.g + color.b) / 3.f;

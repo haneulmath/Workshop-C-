@@ -3,10 +3,12 @@
 
 int main()
 {
+    // Paramètres de l'image noire
     int width = 500;
     int height = 500;
     sil::Image image(width, height);
 
+    // Création de l'image noire
     for (int y = 0; y < height; ++y)
     {
         for (int x = 0; x < width; ++x)
@@ -15,12 +17,14 @@ int main()
         }
     }
 
+    // Paramètres des cercles 
     int centerX = width / 2;
     int centerY = height / 2;
     int centralRadius = 100; 
-    int numCircles = 10;
-    int thickness = 2; 
+    int numCircles = 10; // Nombre de cercles
+    int thickness = 2; // Épaisseur des cercles
 
+    // Fonction de dessin de cercle
     auto drawCircle = [&](int cx, int cy, int radius) {
         for (int y = 0; y < height; ++y)
         {
@@ -37,8 +41,10 @@ int main()
         }
     };
 
+    // Dessin du cercle central
     drawCircle(centerX, centerY, centralRadius);
 
+    // Dessin des autres cercles 
     for (int i = 0; i < numCircles; ++i)
     {
         float angle = 2 * M_PI * i / numCircles;

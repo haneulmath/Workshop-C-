@@ -3,10 +3,12 @@
 
 int main()
 {
+    // Paramètres de l'image noire
     int width = 500;
     int height = 500;
     sil::Image image(width, height);
 
+    // Création de l'image noire
     for (int y = 0; y < height; ++y)
     {
         for (int x = 0; x < width; ++x)
@@ -15,10 +17,12 @@ int main()
         }
     }
 
+    // Choix des paramètres du disque
     int centerX = width / 2;
     int centerY = height / 2;
     int radius = 80;
 
+    // Création du disque
     for (int y = 0; y < height; ++y)
     {
         for (int x = 0; x < width; ++x)
