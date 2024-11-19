@@ -1,0 +1,236 @@
+[
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"0-base\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/0-base.dir/src/0-base.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/0-base.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/0-base.cpp",
+  "output": "CMakeFiles/0-base.dir/src/0-base.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"0-base\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/0-base.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/0-base.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"01-ne-garder-que-le-vert\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/01-ne-garder-que-le-vert.dir/src/01-ne-garder-que-le-vert.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/01-ne-garder-que-le-vert.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/01-ne-garder-que-le-vert.cpp",
+  "output": "CMakeFiles/01-ne-garder-que-le-vert.dir/src/01-ne-garder-que-le-vert.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"01-ne-garder-que-le-vert\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/01-ne-garder-que-le-vert.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/01-ne-garder-que-le-vert.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"02-echanger-les-cannaux\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/02-echanger-les-cannaux.dir/src/02-echanger-les-cannaux.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/02-echanger-les-cannaux.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/02-echanger-les-cannaux.cpp",
+  "output": "CMakeFiles/02-echanger-les-cannaux.dir/src/02-echanger-les-cannaux.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"02-echanger-les-cannaux\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/02-echanger-les-cannaux.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/02-echanger-les-cannaux.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"03-noir-et-blanc\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/03-noir-et-blanc.dir/src/03-noir-et-blanc.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/03-noir-et-blanc.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/03-noir-et-blanc.cpp",
+  "output": "CMakeFiles/03-noir-et-blanc.dir/src/03-noir-et-blanc.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"03-noir-et-blanc\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/03-noir-et-blanc.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/03-noir-et-blanc.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"05-degrade\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/05-degrade.dir/src/05-degrade.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/05-degrade.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/05-degrade.cpp",
+  "output": "CMakeFiles/05-degrade.dir/src/05-degrade.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"05-degrade\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/05-degrade.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/05-degrade.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"07-image-bruitee\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/07-image-bruitee.dir/src/07-image-bruitee.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/07-image-bruitee.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/07-image-bruitee.cpp",
+  "output": "CMakeFiles/07-image-bruitee.dir/src/07-image-bruitee.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"07-image-bruitee\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/07-image-bruitee.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/07-image-bruitee.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"09-rgb-split\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/09-rgb-split.dir/src/09-rgb-split.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/09-rgb-split.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/09-rgb-split.cpp",
+  "output": "CMakeFiles/09-rgb-split.dir/src/09-rgb-split.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"09-rgb-split\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/09-rgb-split.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/09-rgb-split.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"11-disque\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/11-disque.dir/src/11-disque.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/11-disque.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/11-disque.cpp",
+  "output": "CMakeFiles/11-disque.dir/src/11-disque.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"11-disque\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/11-disque.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/11-disque.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"12-cercle\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/12-cercle.dir/src/12-cercle.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/12-cercle.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/12-cercle.cpp",
+  "output": "CMakeFiles/12-cercle.dir/src/12-cercle.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"12-cercle\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/12-cercle.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/12-cercle.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"14-rosace\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/14-rosace.dir/src/14-rosace.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/14-rosace.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/14-rosace.cpp",
+  "output": "CMakeFiles/14-rosace.dir/src/14-rosace.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"14-rosace\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/14-rosace.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/14-rosace.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"17-glitch\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/17-glitch.dir/src/17-glitch.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/17-glitch.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/17-glitch.cpp",
+  "output": "CMakeFiles/17-glitch.dir/src/17-glitch.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"17-glitch\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/17-glitch.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/17-glitch.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"19-degrade-couleur-oklbab\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/19-degrade-couleur-oklbab.dir/src/19-degrade-couleur-oklbab.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/19-degrade-couleur-oklbab.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/19-degrade-couleur-oklbab.cpp",
+  "output": "CMakeFiles/19-degrade-couleur-oklbab.dir/src/19-degrade-couleur-oklbab.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"19-degrade-couleur-oklbab\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/19-degrade-couleur-oklbab.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/19-degrade-couleur-oklbab.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"19-degrade-couleur-srgb\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/19-degrade-couleur-srgb.dir/src/19-degrade-couleur-srgb.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/19-degrade-couleur-srgb.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/19-degrade-couleur-srgb.cpp",
+  "output": "CMakeFiles/19-degrade-couleur-srgb.dir/src/19-degrade-couleur-srgb.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"19-degrade-couleur-srgb\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/19-degrade-couleur-srgb.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/19-degrade-couleur-srgb.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"21-normalisation-histogramme\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/21-normalisation-histogramme.dir/src/21-normalisation-histogramme.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/21-normalisation-histogramme.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/21-normalisation-histogramme.cpp",
+  "output": "CMakeFiles/21-normalisation-histogramme.dir/src/21-normalisation-histogramme.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"21-normalisation-histogramme\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/21-normalisation-histogramme.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/21-normalisation-histogramme.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"22-vortex\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/22-vortex.dir/src/22-vortex.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/22-vortex.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/22-vortex.cpp",
+  "output": "CMakeFiles/22-vortex.dir/src/22-vortex.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"22-vortex\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/22-vortex.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/22-vortex.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"900-fullnoise\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/900-fullnoise.dir/src/900-fullnoise.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/900-fullnoise.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/900-fullnoise.cpp",
+  "output": "CMakeFiles/900-fullnoise.dir/src/900-fullnoise.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"900-fullnoise\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/900-fullnoise.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/900-fullnoise.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"902-cercle-onde\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/902-cercle-onde.dir/src/902-cercle-onde.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/902-cercle-onde.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src/902-cercle-onde.cpp",
+  "output": "CMakeFiles/902-cercle-onde.dir/src/902-cercle-onde.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build",
+  "command": "/usr/bin/clang++ -DFILE_NAME=\\\"902-cercle-onde\\\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/src\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/902-cercle-onde.dir/lib/random.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/random.cpp",
+  "output": "CMakeFiles/902-cercle-onde.dir/lib/random.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build/lib/sil",
+  "command": "/usr/bin/clang++ -DSIL_CMAKE_SOURCE_DIR=\"\\\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop\\\"\" -I\"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/glm\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/include\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/include\" -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/lib\" -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/sil.dir/src/sil.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/src/sil.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/src/sil.cpp",
+  "output": "lib/sil/CMakeFiles/sil.dir/src/sil.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build/lib/sil/lib/img",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/lib/stb_image/stb_image.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/lib/stb_image/stb_image.cpp",
+  "output": "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build/lib/sil/lib/img",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/lib/stb_image/stb_image_write.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/lib/stb_image/stb_image_write.cpp",
+  "output": "lib/sil/lib/img/CMakeFiles/stb_image.dir/lib/stb_image/stb_image_write.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build/lib/sil/lib/img",
+  "command": "/usr/bin/clang++  -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/lib\" -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -Wall -Wextra -Wpedantic -pedantic-errors -Wconversion -Wsign-conversion -o CMakeFiles/img.dir/src/Load.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/src/Load.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/src/Load.cpp",
+  "output": "lib/sil/lib/img/CMakeFiles/img.dir/src/Load.cpp.o"
+},
+{
+  "directory": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/build/lib/sil/lib/img",
+  "command": "/usr/bin/clang++  -isystem \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/lib\" -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -Wall -Wextra -Wpedantic -pedantic-errors -Wconversion -Wsign-conversion -o CMakeFiles/img.dir/src/Save.cpp.o -c \"/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/src/Save.cpp\"",
+  "file": "/Users/matheopalazzolo/Documents/IMAC/Prog & Algo/Workshop/lib/sil/lib/img/src/Save.cpp",
+  "output": "lib/sil/lib/img/CMakeFiles/img.dir/src/Save.cpp.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/902-cercle-onde.dir/src/902-cercle-onde.cpp.o" "CMakeFiles/902-cercle-onde.dir/lib/random.cpp.o" -o 902-cercle-onde  lib/sil/libsil.a lib/sil/lib/img/libimg.a lib/sil/lib/img/libstb_image.a
