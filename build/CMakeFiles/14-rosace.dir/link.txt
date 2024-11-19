@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/14-rosace.dir/src/14-rosace.cpp.o" "CMakeFiles/14-rosace.dir/lib/random.cpp.o" -o 14-rosace  lib/sil/libsil.a lib/sil/lib/img/libimg.a lib/sil/lib/img/libstb_image.a
