@@ -1,11 +1,13 @@
 #include <sil/sil.hpp>
 
+
 int main()
 {
-    sil::Image image{"images/photo_faible_contraste.jpg"};
+    sil::Image image{"images/monique.jpg"};
 
     std::vector<float> luminosities;
 
+    // stocker les valeurs de luminosité de chaque pixel dans une liste
     for (int y{0}; y < image.height(); y++)
     {
         for (int x{0}; x < image.width(); x++)
@@ -16,6 +18,7 @@ int main()
         }
     }
 
+    // Récupérer la valeur min et max dans la liste
     float min_luminosity = *std::min_element(luminosities.begin(), luminosities.end());
     float max_luminosity = *std::max_element(luminosities.begin(), luminosities.end());
 
@@ -25,6 +28,10 @@ int main()
         {
             auto pixel = image.pixel(x, y);
 
+            // On normalise chaque pixel 
+            // On retranche la valeur minimum à chaque pixel pour que le pixel minimum soit égal à 0 et que les autres valeurs suivent naturellement selon une règle affine
+            // On multiplie chaque pixel par la valeur max - min pour que le pixel maximum soit égal à 1 sachant qu'après la transformation précédente on a retiré le minimum à la valeur maximum
+
             pixel.r = (pixel.r - min_luminosity) / (max_luminosity - min_luminosity);
             pixel.g = (pixel.g - min_luminosity) / (max_luminosity - min_luminosity);
             pixel.b = (pixel.b - min_luminosity) / (max_luminosity - min_luminosity);
@@ -33,7 +40,7 @@ int main()
         }
     }
 
-    image.save("output/" FILE_NAME ".png");
+    image.save("output/" FILE_NAME ".jpg");
 
     return 0;
 }

@@ -22,7 +22,7 @@ int main()
     int centerY = height / 2;
     int centralRadius = 100; 
     int numCircles = 10; // Nombre de cercles
-    int thickness = 2; // Épaisseur des cercles
+    int thickness = 2; 
 
     // Fonction de dessin de cercle
     auto drawCircle = [&](int cx, int cy, int radius) {

@@ -3,7 +3,7 @@
 
 int main()
 {
-    sil::Image image{"images/logo.jpeg"};
+    sil::Image image{"images/monique.jpg"};
 
     sil::Image outputImage = image;
 

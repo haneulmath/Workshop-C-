@@ -8,7 +8,7 @@ int main()
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
     // Charge l'image
-    sil::Image image{"images/logo.png"}; // 
+    sil::Image image{"images/monique.jpg"}; // 
     int totalPixels = image.width() * image.height(); // Nombre total de pixels
     int numPixelsToModify = totalPixels / 1; // Modifie 100% des pixels
 

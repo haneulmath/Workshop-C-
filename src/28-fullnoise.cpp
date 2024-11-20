@@ -2,7 +2,7 @@
 
 int main()
 {
-    sil::Image image{"images/logo.png"};
+    sil::Image image{"images/monique.jpg"};
 
     for (glm::vec3& color : image.pixels())
     {

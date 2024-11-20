@@ -8,7 +8,7 @@ int main()
     std::srand(static_cast<unsigned int>(std::time(nullptr))); 
 
     // Charge l'image
-    sil::Image image{"images/robi.jpeg"};
+    sil::Image image{"images/monique.jpg"};
     int width = image.width();
     int height = image.height();
 

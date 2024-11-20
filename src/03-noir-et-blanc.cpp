@@ -2,7 +2,7 @@
 
 int main()
 {
-    sil::Image image{"images/logo.png"};
+    sil::Image image{"images/monique.jpg"};
 
     for (int x{0}; x < image.width(); x++)
     {

@@ -2,7 +2,7 @@
 
 int main()
 {
-    sil::Image image{"images/logo.png"};
-    // TODO: modifier l'image
+    sil::Image image{"images/monique.jpg"};
+
     image.save("output/" FILE_NAME ".png");
 }

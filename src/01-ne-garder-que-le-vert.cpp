@@ -3,7 +3,7 @@
 int main()
 {
     // Charge l'image
-    sil::Image image{"images/logo.png"};
+    sil::Image image{"images/monique.jpg"};
 
     // Parcours l'image
     for (int x{0}; x < image.width(); x++)
