@@ -14,11 +14,10 @@ int main()
         }
     }
 
-    // Supprime le rouge et le bleu
     for (glm::vec3& color : image.pixels())
     {
-        color.r = 0.f; 
-        color.b = 0.f;
+        color.r = 0.f; // On met le rouge à 0
+        color.b = 0.f; // On met le bleu à 0
     }
     image.save("output/" FILE_NAME ".png");
 }

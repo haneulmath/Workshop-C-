@@ -17,7 +17,7 @@ int main()
         }
     }
 
-    // Choix des paramètres du cercle
+    // Paramètres du cercle
     int centerX = width / 2;
     int centerY = height / 2;
     int radius = 80;
@@ -33,7 +33,7 @@ int main()
             float distance = std::sqrt(dx * dx + dy * dy);
             if (distance >= radius - thickness && distance <= radius + thickness)
             {
-                image.pixel(x, y) = glm::vec3(1.0f, 1.0f, 1.0f); 
+                image.pixel(x, y) = glm::vec3(1.0f, 1.0f, 1.0f); // Couleur blanche
             }
         }
     }

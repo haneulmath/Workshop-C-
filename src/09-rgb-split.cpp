@@ -5,7 +5,8 @@ int main()
 {
     sil::Image image{"images/monique.jpg"};
 
-    sil::Image outputImage = image;
+
+    sil::Image newImage = image;
 
     // Indique le décalage pour chaque canal de couleur
     int redOffset = -30; 
@@ -16,7 +17,7 @@ int main()
     {   
         for (int x = 0; x < image.width(); ++x)
         {
-            glm::vec3& currentPixel = outputImage.pixel(x, y);
+            glm::vec3& currentPixel = newImage.pixel(x, y);
 
             // Récupère les pixels voisins pour le canal rouge
             int redIndex = std::clamp(x + redOffset, 0, image.width() - 1);
@@ -33,5 +34,5 @@ int main()
         }
     }
 
-    outputImage.save("output/" FILE_NAME ".png");
+    newImage.save("output/" FILE_NAME ".png");
 }

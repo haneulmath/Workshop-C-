@@ -17,7 +17,7 @@ int main()
         }
     }
 
-    // Choix des paramètres du disque
+    // Paramètres du disque
     int centerX = width / 2;
     int centerY = height / 2;
     int radius = 80;
@@ -27,11 +27,14 @@ int main()
     {
         for (int x = 0; x < width; ++x)
         {
+            // Calcul de la distance entre le pixel et le centre du disque
             int dx = x - centerX;
             int dy = y - centerY;
+
+            // Si le pixel est dans le disque, on le colore en blanc
             if (std::sqrt(dx * dx + dy * dy) <= radius)
             {
-                image.pixel(x, y) = glm::vec3(1.0f, 1.0f, 1.0f); 
+                image.pixel(x, y) = glm::vec3(1.0f, 1.0f, 1.0f); // Couleur blanche
             }
         }
     }

@@ -5,7 +5,6 @@ int main()
     sil::Image image{"images/monique.jpg"};
 
     // On inverse les valeurs de toutes les pixels
-
     for (glm::vec3& color : image.pixels())
     {
         color.r = 1.f - color.r;

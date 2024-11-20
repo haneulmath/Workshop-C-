@@ -2,6 +2,7 @@
 
 int main()
 {
+
     sil::Image image{"images/monique.jpg"};
 
     for (int x{0}; x < image.width(); x++)
@@ -12,9 +13,10 @@ int main()
         }
     }
 
-    // Convertit chaque pixel en nuance de gris
+    // On converti chaque pixel en nuance de gris
     for (glm::vec3& color : image.pixels())
     {
+        // On calcule la moyenne des composantes rouge, vert et bleu pour obtenir une nuance de gris
         float gray = (color.r + color.g + color.b) / 3.f;
         color.r = gray;
         color.g = gray;

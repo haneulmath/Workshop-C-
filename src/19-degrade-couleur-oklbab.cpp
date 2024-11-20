@@ -1,10 +1,11 @@
 #include <sil/sil.hpp>
 #include <cmath>
 
+// Structures de données pour les couleurs 
 struct Lab {float L; float a; float b;};
 struct RGB {float r; float g; float b;};
 
-// Fonction pour convertir une composante de couleur de sRGB à Linear RGB
+// Conversion d'une composante de couleur de sRGB à Linear RGB
 float sRGBToLinear(float c)
 {
     if (c <= 0.04045f)
@@ -13,13 +14,13 @@ float sRGBToLinear(float c)
         return std::pow((c + 0.055f) / 1.055f, 2.4f);
 }
 
-// Fonction pour convertir une couleur de sRGB à Linear RGB
+// Conversion d'une couleur de sRGB à Linear RGB
 RGB sRGBToLinear(RGB c)
 {
     return {sRGBToLinear(c.r), sRGBToLinear(c.g), sRGBToLinear(c.b)};
 }
 
-
+// Conversion d'une couleur de Linear RGB à Oklab
 Lab linear_srgb_to_oklab(RGB c) 
 {
     float l = 0.4122214708f * c.r + 0.5363325363f * c.g + 0.0514459929f * c.b;
@@ -37,6 +38,7 @@ Lab linear_srgb_to_oklab(RGB c)
     };
 }
 
+// Conversion d'une couleur de Oklab à Linear RGB
 RGB oklab_to_linear_srgb(Lab c) 
 {
     float l_ = c.L + 0.3963377774f * c.a + 0.2158037573f * c.b;
@@ -73,14 +75,15 @@ int main()
 {
     sil::Image image{300, 200};
 
-    RGB firstColor = {1.0f, 0.0f, 0.0f}; // Rouge en sRGB
-    RGB secondColor = {0.0f, 1.0f, 0.0f}; // Bleu en sRGB
+    // Couleurs de départ et d'arrivée
+    RGB firstColor = {1.0f, 0.0f, 0.0f}; 
+    RGB secondColor = {0.0f, 1.0f, 0.0f}; 
 
-    // Convertir les couleurs de sRGB à Linear RGB
+    // Conversion des couleurs de départ et d'arrivée en Linear RGB
     RGB firstColorLinear = sRGBToLinear(firstColor);
     RGB secondColorLinear = sRGBToLinear(secondColor);
 
-    // Convertir les couleurs de Linear RGB à Oklab
+    // Conversion des couleurs de départ et d'arrivée en Oklab
     Lab firstColorOklab = linear_srgb_to_oklab(firstColorLinear);
     Lab secondColorOklab = linear_srgb_to_oklab(secondColorLinear);
 
@@ -90,15 +93,14 @@ int main()
         {
             float t = static_cast<float>(x) / image.width();
             Lab colorOklab = {
+                // Interpolation linéaire des composantes de couleur
                 firstColorOklab.L * (1 - t) + secondColorOklab.L * t,
                 firstColorOklab.a * (1 - t) + secondColorOklab.a * t,
                 firstColorOklab.b * (1 - t) + secondColorOklab.b * t
             };
 
-            // Convertir de Oklab à Linear RGB
+            // Conversion de la couleur interpolée en Linear RGB puis en sRGB
             RGB colorLinearRGB = oklab_to_linear_srgb(colorOklab);
-
-            // Convertir de Linear RGB à sRGB
             RGB colorSRGB = linearToSRGB(colorLinearRGB);
 
             // Clamper les valeurs pour s'assurer qu'elles sont dans la plage [0, 1]

@@ -3,7 +3,7 @@
 
 int main()
 {
-    sil::Image image{"images/monique.jpg"};
+    sil::Image image{"images/monique-contraste.jpg"};
 
     std::vector<float> luminosities;
 

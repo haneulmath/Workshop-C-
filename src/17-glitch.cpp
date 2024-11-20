@@ -19,26 +19,26 @@ int main()
     for (int i = 0; i < numGlitches; ++i)
     {   
         // Taille des rectangles
-        int rectWidth = std::rand() % (width / 10) + 1;  
-        int rectHeight = std::rand() % (height / 50) + 1; 
+        int rectWidth = std::rand() % (width / 10) + 1; // Largeur aléatoire supérieur à 0
+        int rectHeight = std::rand() % (height / 50) + 1; // Hauteur aléatoire supérieur à 0
         
         // Position des rectangles
-        int x1 = std::rand() % (width - rectWidth);
+        int x1 = std::rand() % (width - rectWidth); 
         int y1 = std::rand() % (height - rectHeight);
         int x2 = std::rand() % (width - rectWidth);
         int y2 = std::rand() % (height - rectHeight);
 
-        // Échange des pixels
         for (int y = 0; y < rectHeight; ++y)
         {
             for (int x = 0; x < rectWidth; ++x)
             {
-                glm::vec3 temp = image.pixel(x1 + x, y1 + y);
-                image.pixel(x1 + x, y1 + y) = image.pixel(x2 + x, y2 + y);
-                image.pixel(x2 + x, y2 + y) = temp; // 
+                // Échange des pixels
+                glm::vec3 temp = image.pixel(x1 + x, y1 + y); 
+                image.pixel(x1 + x, y1 + y) = image.pixel(x2 + x, y2 + y); // 
+                image.pixel(x2 + x, y2 + y) = temp; 
             }
         }
     }
 
-    image.save("output/" FILE_NAME ".png");
+    image.save("output/" FILE_NAME ".png"); 
 }

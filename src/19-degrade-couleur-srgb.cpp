@@ -14,9 +14,9 @@ int main()
     {
         for (int y{0}; y < image.height(); y++)
         {
-            float t = static_cast<float>(x) / image.width();
-            glm::vec3 color = glm::mix(firstColor, secondColor, t);
-            image.pixel(x, y) = color;
+            float t = static_cast<float>(x) / image.width();// Interpolation linéaire
+            glm::vec3 color = glm::mix(firstColor, secondColor, t); // Mélange des couleurs
+            image.pixel(x, y) = color; // Coloration du pixel
         }
     }
 
