@@ -1,82 +1,83 @@
-# 🐣 S1 | Prog: Workshop
+# 🐱 S1 | Prog: Workshop
 
+<font color="#00b0f0">Max et Mathéo</font>
 
 ## Exercices
 
-![Image de référence](/output "Image de base")
+![Image de référence](/output/00-base.png "Image")
 
 ### 1 étoile ⭐ 
 #### ⭐ Ne garder que le vert
-![Image de référence](/output/01-ne-garder-que-le-vert.png "Image de base")
+![Image modifée](/output/01-ne-garder-que-le-vert.png "Image")
 #### ⭐ Échanger les canaux
-![Image de référence](/output/02-echanger-les-cannaux.png "Image de base")
+![Image modifée](/output/02-echanger-les-cannaux.png "Image")
 #### ⭐ Noir & Blanc
-![Image de référence](/output/03-noir-et-blanc.png "Image de base")
+![Image modifée](/output/03-noir-et-blanc.png "Image")
 #### ⭐ Négatif
-![Image de référence](/output/04-negatif.png "Image de base")
+![Image modifée](/output/04-negatif.png "Image")
 #### ⭐ Dégradé
-![Image de référence](/output/05-degrade.png "Image de base")
+![Image modifée](/output/05-degrade.png "Image")
 
 ### 1 étoile ⭐ 
 #### ⭐⭐ Miroir
-![Image de référence](/output/06-miroir.png "Image de base")
+![Image modifée](/output/06-miroir.png "Image")
 #### ⭐⭐ Image bruitée
-![Image de référence](/output/07-image-bruitee.png "Image de base")
+![Image modifée](/output/07-image-bruitee.png "Image")
 #### ⭐⭐ Rotation de 90°
-![Image de référence](/output/08-rotation-de-90.png "Image de base")
+![Image modifée](/output/08-rotation-de-90.png "Image")
 #### ⭐⭐ RGB split
-![Image de référence](/output/09-rgb-split.png "Image de base")
+![Image modifée](/output/09-rgb-split.png "Image")
 #### ⭐⭐ Luminosité
-![Image de référence](/output/10-1-luminosite-claire.png "Image de base")
-![Image de référence](/output/10-2-luminosite-sombre.png "Image de base")
+![Image modifée](/output/10-1-luminosite-claire.png "Image")
+![Image modifée](/output/10-2-luminosite-sombre.png "Image")
 
 ### 2 étoiles ⭐⭐
 #### ⭐⭐(⭐) Disque
-![Image de référence](/output/11-disque.png "Image de base")
+![Image modifée](/output/11-disque.png "Image")
 #### ⭐ Cercle
-![Image de référence](/output/12-cercle.png "Image de base")
+![Image modifée](/output/12-cercle.png "Image")
 #### ⭐⭐ Animation
-![Image de référence](/output/13-animation.gif "Image de base")
+![Image modifée](/output/13-animation.gif "Image")
 #### ⭐⭐⭐ Rosace
-![Image de référence](/output/14-rosace.png "Image de base")
+![Image modifée](/output/14-rosace.png "Image")
 #### ⭐⭐ Mosaïque
-![Image de référence](/output/15-mosaique.png "Image de base")
+![Image modifée](/output/15-mosaique.png "Image")
 #### ⭐⭐⭐⭐ Mosaïque miroir
-![Image de référence](/output/16-mosaique-miroir.png "Image de base")
+![Image modifée](/output/16-mosaique-miroir.png "Image")
 #### ⭐⭐⭐ Glitch
-![Image de référence](/output/17-glitch.png "Image de base")
+![Image modifée](/output/17-glitch.png "Image")
 #### ⭐⭐⭐ Tri de pixels
-![Image de référence](/output/18-tri-de-pixels.png "Image de base")
+![Image modifée](/output/18-tri-de-pixels.png "Image")
 #### ⭐⭐⭐ Dégradés dans l'espace de couleur Lab
-![Image de référence](/output/19-degrade-couleur-srgb.png "Image de base")
-![Image de référence](/output/19-degrade-couleur-oklbab.png "Image de base")
+![Image modifée](/output/19-degrade-couleur-srgb.png "Image")
+![Image modifée](/output/19-degrade-couleur-oklbab.png "Image")
 
 ### 3 étoiles ⭐⭐⭐
 #### ⭐⭐⭐(⭐) Fractale de Mandelbrot
-![Image de référence](/output/20-fractale-de-mandelbrot.png "Image de base")
+![Image modifée](/output/20-fractale-de-mandelbrot.png "Image")
 #### ⭐⭐⭐(⭐) Tramage
-![Image de référence](/output/21-trammage.png "Image de base")
+![Image modifée](/output/21-trammage.png "Image")
 #### ⭐⭐⭐(⭐) Normalisation de l'histogramme
-![Image de référence](/output/22-normalisation-historigramme.jpg "Image de base")
+![Image modifée](/output/22-normalisation-historigramme.jpg "Image")
 #### ⭐⭐⭐⭐ Vortex
-![Image de référence](/output/23-vortex.png "Image de base")
+![Image modifée](/output/23-vortex.png "Image")
 #### ⭐⭐⭐⭐ Convolutions
-![Image de référence](/output/24-1-convolutions-box-blur.png "Image de base")
+![Image modifée](/output/24-1-convolutions-box-blur.png "Image")
 ##### ⭐ Netteté, Contours, etc.
-![Image de référence](/output/24-2-convolutions-emboss.png "Image de base")
-![Image de référence](/output/24-3-convolutions-outline.png "Image de base")
-![Image de référence](/output/24-4-convolutions-sharpen.png "Image de base")
+![Image modifée](/output/24-2-convolutions-emboss.png "Image")
+![Image modifée](/output/24-3-convolutions-outline.png "Image")
+![Image modifée](/output/24-4-convolutions-sharpen.png "Image")
 ##### ⭐⭐ Filtres séparables
-![Image de référence](/output/24-5-filtres-separables-box-blur.png "Image de base")
+![Image modifée](/output/24-5-filtres-separables-box-blur.png "Image")
 ##### ⭐⭐ Différence de gaussiennes
-![Image de référence](/output/ "Image de base")
+![Image modifée](/output/ "Image")
 
 ### 4+ étoiles ⭐⭐⭐⭐+
 #### ⭐⭐⭐⭐⭐ K-means : trouver les couleurs les plus présentes dans une image
-![Image de référence](/output/25-k-means.png "Image de base")
+![Image modifée](/output/25-k-means.png "Image")
 #### ⭐⭐⭐⭐⭐ Filtre de Kuwahara (effet peinture à l'huile)
-![Image de référence](/output "Image de base")
+![Image modifée](/output "Image")
 #### ⭐⭐⭐⭐⭐⭐ Diamond Square
-![Image de référence](/output "Image de base")
+![Image modifée](/output "Image")
 #### ⭐⭐ Colorer la height map
-![Image de référence](/output "Image de base")
+![Image modifée](/output "Image")
