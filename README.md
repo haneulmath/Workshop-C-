@@ -2,8 +2,11 @@
 
 <font color="#00b0f0">Max et Mathéo</font>
 
+Markdown All In One: Create Table of Contents
+
 ## Exercices
 
+Image de référence
 ![Image de référence](/output/00-base.png "Image")
 
 ### 1 étoile ⭐ 
@@ -81,3 +84,22 @@
 ![Image modifée](/output "Image")
 #### ⭐⭐ Colorer la height map
 ![Image modifée](/output "Image")
+
+### Bonus
+#### Fullnoise
+![Image modifée](/output/28-fullnoise.png "Image")
+#### Onde
+![Image modifée](/output/29-cercle-onde.png "Image")
+#### Poor Lightroom
+|Before|After|
+|--|--|
+|![Image de base](/images/doggo.jpg "Image")|![Image modifée](/output/30-poor-lightroom.png "Image")|
+#### Color Grading
+|Before|After|
+|--|--|
+|![Image de base](/images/doggo.jpg "Image")|![Image modifée](/output/31-color-grading.png "Image")|
+
+|Base|Edit|
+|--|--|
+|![Image de base](/images/ "Image")|![Image modifée](/output "Image")|
+

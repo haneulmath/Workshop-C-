@@ -4,7 +4,7 @@
 #include <random>
 
 int main() {
-    const int k = 30;
+    const int k = 5;
     const int maxIterations = 100;
     
     // On charge les pixels de l'image dans une liste
