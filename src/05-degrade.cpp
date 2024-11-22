@@ -2,6 +2,7 @@
 
 int main()
 {
+    // Crée une image  
     sil::Image image{300, 200};
     for (int x{0}; x < image.width(); x++)
     {

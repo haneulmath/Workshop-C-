@@ -13,7 +13,7 @@ int main()
     {
         for (int x = 0; x < width; ++x)
         {
-            image.pixel(x, y) = glm::vec3(0.0f, 0.0f, 0.0f); 
+            image.pixel(x, y) = glm::vec3(0.5f, 0.0f, 0.6f); 
         }
     }
 

@@ -19,7 +19,6 @@ int main()
             std::sort(pixels.begin() + y * image.width(), pixels.begin() + (y + 1) * image.width(), [](glm::vec3 a, glm::vec3 b) {
                 return a.r < b.r;
             });
-
        }
     }
 

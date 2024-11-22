@@ -54,7 +54,7 @@ int main()
     sil::Image image{"images/monique.jpg"};
     glm::vec2 center_of_rotation{image.width() / 2.0f, image.height() / 2.0f};
     float angle = 0.1f; // Pour ajuster l'angle 
-    float strength = 1.0f; // Pour ajuster la force du vortex ici
+    float strength = 1.0f; // Pour ajuster la force du vortex
 
     applyVortexEffect(image, center_of_rotation, angle, strength);
 

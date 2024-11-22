@@ -6,7 +6,7 @@ int main()
     sil::Image image{300, 200};
 
     // Paramètrage de la couleur de départ et d'arrivée
-    glm::vec3 firstColor = glm::vec3(1.0f, 0.0f, 0.0f);
+    glm::vec3 firstColor = glm::vec3(0.0f, 0.0f, 1.0f);
     glm::vec3 secondColor = glm::vec3(0.0f, 1.0f, 0.0f);   
 
     // Dessine le dégradé

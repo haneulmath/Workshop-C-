@@ -2,11 +2,53 @@
 
 <font color="#00b0f0">Max et Mathéo</font>
 
-Markdown All In One: Create Table of Contents
+Table of Contents
+- [🐱 S1 | Prog: Workshop](#-s1--prog-workshop)
+  - [Exercices](#exercices)
+    - [1 étoile ⭐](#1-étoile-)
+      - [⭐ Ne garder que le vert](#-ne-garder-que-le-vert)
+      - [⭐ Échanger les canaux](#-échanger-les-canaux)
+      - [⭐ Noir \& Blanc](#-noir--blanc)
+      - [⭐ Négatif](#-négatif)
+      - [⭐ Dégradé](#-dégradé)
+    - [1 étoile ⭐](#1-étoile--1)
+      - [⭐⭐ Miroir](#-miroir)
+      - [⭐⭐ Image bruitée](#-image-bruitée)
+      - [⭐⭐ Rotation de 90°](#-rotation-de-90)
+      - [⭐⭐ RGB split](#-rgb-split)
+      - [⭐⭐ Luminosité](#-luminosité)
+    - [2 étoiles ⭐⭐](#2-étoiles-)
+      - [⭐⭐(⭐) Disque](#-disque)
+      - [⭐ Cercle](#-cercle)
+      - [⭐⭐ Animation](#-animation)
+      - [⭐⭐⭐ Rosace](#-rosace)
+      - [⭐⭐ Mosaïque](#-mosaïque)
+      - [⭐⭐⭐⭐ Mosaïque miroir](#-mosaïque-miroir)
+      - [⭐⭐⭐ Glitch](#-glitch)
+      - [⭐⭐⭐ Tri de pixels](#-tri-de-pixels)
+      - [⭐⭐⭐ Dégradés dans l'espace de couleur Lab](#-dégradés-dans-lespace-de-couleur-lab)
+    - [3 étoiles ⭐⭐⭐](#3-étoiles-)
+      - [⭐⭐⭐(⭐) Fractale de Mandelbrot](#-fractale-de-mandelbrot)
+      - [⭐⭐⭐(⭐) Tramage](#-tramage)
+      - [⭐⭐⭐(⭐) Normalisation de l'histogramme](#-normalisation-de-lhistogramme)
+      - [⭐⭐⭐⭐ Vortex](#-vortex)
+      - [⭐⭐⭐⭐ Convolutions](#-convolutions)
+        - [⭐ Netteté, Contours, etc.](#-netteté-contours-etc)
+        - [⭐⭐ Filtres séparables](#-filtres-séparables)
+        - [⭐⭐ Différence de gaussiennes](#-différence-de-gaussiennes)
+    - [4+ étoiles ⭐⭐⭐⭐+](#4-étoiles-)
+      - [⭐⭐⭐⭐⭐ K-means : trouver les couleurs les plus présentes dans une image](#-k-means--trouver-les-couleurs-les-plus-présentes-dans-une-image)
+    - [Bonus](#bonus)
+      - [Fullnoise](#fullnoise)
+      - [Onde](#onde)
+      - [Poor Lightroom](#poor-lightroom)
+      - [Color Grading](#color-grading)
+
 
 ## Exercices
 
-Image de référence
+Image de référence 
+
 ![Image de référence](/output/00-base.png "Image")
 
 ### 1 étoile ⭐ 
@@ -78,28 +120,32 @@ Image de référence
 ### 4+ étoiles ⭐⭐⭐⭐+
 #### ⭐⭐⭐⭐⭐ K-means : trouver les couleurs les plus présentes dans une image
 ![Image modifée](/output/25-k-means.png "Image")
-#### ⭐⭐⭐⭐⭐ Filtre de Kuwahara (effet peinture à l'huile)
+<!-- #### ⭐⭐⭐⭐⭐ Filtre de Kuwahara (effet peinture à l'huile)
 ![Image modifée](/output "Image")
 #### ⭐⭐⭐⭐⭐⭐ Diamond Square
 ![Image modifée](/output "Image")
 #### ⭐⭐ Colorer la height map
-![Image modifée](/output "Image")
+![Image modifée](/output "Image") -->
 
 ### Bonus
 #### Fullnoise
+Ajoute du bruit à la valeur max sur toute l'image.
 ![Image modifée](/output/28-fullnoise.png "Image")
 #### Onde
+Créé des cercles de plus en plus petits.
 ![Image modifée](/output/29-cercle-onde.png "Image")
 #### Poor Lightroom
+Nous avons souhtaité obtenir un programme qui nous permettait de modifier de façon les valeurs des ombres, hautes lumières, blancs et noirs.
+Nous avons donc attribué chaque paramètre à une valeur de luminosité.
 |Before|After|
 |--|--|
 |![Image de base](/images/doggo.jpg "Image")|![Image modifée](/output/30-poor-lightroom.png "Image")|
 #### Color Grading
+Nous avons également souhaité obtenir un programme qui nous permettrait de faire du color grading.
+Comme sur Lightroom, nous avons mis en place 4 paramètres, les hautes lumières, les ombres, tons moyens et l'image globale.
+Pour cela, il fallait convertir une couleur RGB en HSL.
+Ensuite, créer la fonction d'ajustement de la teinte et de la saturation.
+Et pour finir, la fonctione qui applique les modifications.
 |Before|After|
 |--|--|
 |![Image de base](/images/doggo.jpg "Image")|![Image modifée](/output/31-color-grading.png "Image")|
-
-|Base|Edit|
-|--|--|
-|![Image de base](/images/ "Image")|![Image modifée](/output "Image")|
-

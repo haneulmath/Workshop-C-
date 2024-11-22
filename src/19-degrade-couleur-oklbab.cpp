@@ -76,7 +76,7 @@ int main()
     sil::Image image{300, 200};
 
     // Couleurs de départ et d'arrivée
-    RGB firstColor = {1.0f, 0.0f, 0.0f}; 
+    RGB firstColor = {0.0f, 0.0f, 1.0f}; 
     RGB secondColor = {0.0f, 1.0f, 0.0f}; 
 
     // Conversion des couleurs de départ et d'arrivée en Linear RGB

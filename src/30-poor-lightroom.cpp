@@ -19,7 +19,7 @@ void adjustImage(sil::Image& image, int highlights, int shadows, int whites, int
             glm::vec3& pixel = image.pixel(x, y);
 
             // Ajuster les hautes lumières
-            if (pixel.r > 0.5f) pixel.r = adjustValue(pixel.r, highlights);
+            if (pixel.r > 0.5f) pixel.r = adjustValue(pixel.r, highlights); 
             if (pixel.g > 0.5f) pixel.g = adjustValue(pixel.g, highlights);
             if (pixel.b > 0.5f) pixel.b = adjustValue(pixel.b, highlights);
 
@@ -49,11 +49,11 @@ void adjustImage(sil::Image& image, int highlights, int shadows, int whites, int
 int main() {
     sil::Image image{"images/doggo.jpg"};
 
-    // Ajustements : valeurs entre -100 et 100
-    int highlights = -10; // Exemple : augmenter les hautes lumières
-    int shadows = 10;   // Exemple : diminuer les ombres
-    int whites = 10;     // Exemple : augmenter les blancs
-    int blacks = -10;    // Exemple : diminuer les noirs
+    // Ajustements des valeurs entre -100 et 100
+    int highlights = -10; 
+    int shadows = 10;   
+    int whites = 10;   
+    int blacks = -10;    
 
     adjustImage(image, highlights, shadows, whites, blacks);
 

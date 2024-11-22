@@ -3,14 +3,14 @@
 #include <iostream>
 #include <cmath>
 
-// Structure pour représenter une couleur en HSL
+// Structure couleur HSL
 struct HSL {
-    float h; // Hue (0-360)
-    float s; // Saturation (0-1)
-    float l; // Lightness (0-1)
+    float h; 
+    float s; 
+    float l; 
 };
 
-// Fonction pour convertir une couleur RGB en HSL
+// Conversion d'une couleur RGB en HSL
 HSL rgbToHsl(const glm::vec3& rgb) {
     float r = rgb.r;
     float g = rgb.g;
@@ -43,7 +43,7 @@ HSL rgbToHsl(const glm::vec3& rgb) {
     return hsl;
 }
 
-// Fonction pour convertir une couleur HSL en RGB
+// Conversion d'une couleur HSL en RGB
 glm::vec3 hslToRgb(const HSL& hsl) {
     float h = hsl.h / 360.0f;
     float s = hsl.s;
@@ -73,7 +73,7 @@ glm::vec3 hslToRgb(const HSL& hsl) {
     return glm::vec3(r, g, b);
 }
 
-// Fonction pour ajuster la teinte et la saturation d'une couleur HSL
+// Ajustement de la teinte et la saturation d'une couleur HSL
 HSL adjustHueSaturation(const HSL& hsl, float hueAdjustment, float saturationAdjustment) {
     HSL adjustedHsl = hsl;
     adjustedHsl.h = std::fmod(hsl.h + hueAdjustment, 360.0f);
@@ -82,7 +82,7 @@ HSL adjustHueSaturation(const HSL& hsl, float hueAdjustment, float saturationAdj
     return adjustedHsl;
 }
 
-// Fonction pour appliquer le color grading à une image
+// Application du color grading à une image
 void applyColorGrading(sil::Image& image, float hueHighlights, float saturationHighlights, float hueShadows, float saturationShadows, float hueMidtones, float saturationMidtones, float hueGlobal, float saturationGlobal) {
     for (int y = 0; y < image.height(); ++y) {
         for (int x = 0; x < image.width(); ++x) {
@@ -118,15 +118,15 @@ void applyColorGrading(sil::Image& image, float hueHighlights, float saturationH
 int main() {
     sil::Image image{"images/doggo.jpg"};
 
-    // Ajustements : valeurs de teinte entre 0 et 360, valeurs de saturation entre 0 et 100
-    float hueHighlights = 200; // Exemple : ajuster la teinte des hautes lumières
-    float saturationHighlights = 0; // Exemple : ajuster la saturation des hautes lumières
-    float hueShadows = 350; // Exemple : ajuster la teinte des ombres
-    float saturationShadows = 5; // Exemple : ajuster la saturation des ombres
-    float hueMidtones = 350; // Exemple : ajuster la teinte des midtones
-    float saturationMidtones = 5; // Exemple : ajuster la saturation des midtones
-    float hueGlobal = 0; // Exemple : ajuster la teinte globale
-    float saturationGlobal = 0; // Exemple : ajuster la saturation globale
+    // Ajustements  des valeurs de teinte entre 0 et 360 et valeurs de saturation entre 0 et 100
+    float hueHighlights = 200;
+    float saturationHighlights = 0;
+    float hueShadows = 350; 
+    float saturationShadows = 5;
+    float hueMidtones = 350; 
+    float saturationMidtones = 5; 
+    float hueGlobal = 0; 
+    float saturationGlobal = 0; 
 
     applyColorGrading(image, hueHighlights, saturationHighlights, hueShadows, saturationShadows, hueMidtones, saturationMidtones, hueGlobal, saturationGlobal);
 
