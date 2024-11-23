@@ -103,7 +103,9 @@ Image de référence
 #### ⭐⭐⭐(⭐) Tramage
 ![Image modifée](/output/21-trammage.png "Image")
 #### ⭐⭐⭐(⭐) Normalisation de l'histogramme
-![Image modifée](/output/22-normalisation-historigramme.jpg "Image")
+|Before|After|
+|--|--|
+|![Image de base](/images/monique-contraste.jpg "Image")|![Image modifée](/output/22-normalisation-historigramme.jpg "Image")|
 #### ⭐⭐⭐⭐ Vortex
 ![Image modifée](/output/23-vortex.png "Image")
 #### ⭐⭐⭐⭐ Convolutions

@@ -19,7 +19,7 @@ glm::vec2 vortex(glm::vec2 point, glm::vec2 center_of_rotation, float angle, flo
 }
 
 // Fonction qui applique l'effet de vortex à une image entière
-void applyVortexEffect(sil::Image& image, glm::vec2 center_of_rotation, float angle, float strength)
+void vortexEffect(sil::Image& image, glm::vec2 center_of_rotation, float angle, float strength)
 {
     int width = image.width();
     int height = image.height();
@@ -52,11 +52,11 @@ void applyVortexEffect(sil::Image& image, glm::vec2 center_of_rotation, float an
 int main()
 {
     sil::Image image{"images/monique.jpg"};
-    glm::vec2 center_of_rotation{image.width() / 2.0f, image.height() / 2.0f};
+    glm::vec2 center_rotation{image.width() / 2.0f, image.height() / 2.0f};
     float angle = 0.1f; // Pour ajuster l'angle 
     float strength = 1.0f; // Pour ajuster la force du vortex
 
-    applyVortexEffect(image, center_of_rotation, angle, strength);
+    vortexEffect(image, center_rotation, angle, strength);
 
     image.save("output/" FILE_NAME ".png");
 }
